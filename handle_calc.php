@@ -12,7 +12,9 @@
 /* This script takes values from calculator.html and preforms
 total cost and monthly payment calculations. */
 
-// Address error handling, if you want. I dont want so here: ini_set('display_errors', 1); error_reporting(E_ALL);
+// Address error handling, if you want. I do want so here:
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
 // Get the values from the $_POST array:
 $_price = $_POST['price'];
