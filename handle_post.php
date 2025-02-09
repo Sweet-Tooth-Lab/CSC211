@@ -12,7 +12,7 @@ first_name, last_name, email, posting, submit*/
 // Get the values from the $_POST array:
 $_first_name = $_POST['first_name'];
 $_last_name = $_POST['last_name'];
-$_posting = $_POST['posting'];
+$_posting = nl2br($_POST['posting'], false);
 
 // Create a full name variable:
 $_name = $_first_name . ' ' . $_last_name;
