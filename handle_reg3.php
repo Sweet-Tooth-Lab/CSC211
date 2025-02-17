@@ -50,6 +50,7 @@ else
 if ($okay)
 {
 	print '<p>You have been registered (but not really).</p>';
+	print '<p>You will turn $age this year.</p>';
 }
 ?>
 </body>
