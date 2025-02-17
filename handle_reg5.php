@@ -73,6 +73,7 @@ if ( !isset($_POST['terms']))
 if ($okay)
 {
 	print '<p>You have been registered (but not really).</p>';
+	print '<p>You will turn $_age this year.</p>;
 }
 ?>
 </body>
